@@ -1,0 +1,26 @@
+{
+  "name": "sag/sql2couchdb",
+  "type": "library",
+  "description": "SQL to Apache CouchDB migration tools/system.",
+  "homepage": "https://github.com/BigBlueHat/sql2couchdb",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Sam Bisbee",
+      "email": "sam@sbisbee.com",
+      "homepage": "http://www.sbisbee.com/"
+    },
+    {
+      "name": "Benjamin Young",
+      "email": "byoung@bigbluehat.com",
+      "homepage": "http://www.bigbluehat.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.0",
+    "sag/sag": "dev-master"
+  },
+  "suggest": {
+    "lib-curl": "*"
+  }
+}

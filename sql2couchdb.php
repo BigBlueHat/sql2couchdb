@@ -27,7 +27,7 @@
  * work.
  */
 
-require('sag-0.3.0/Sag.php');
+require_once 'vendor/autoload.php';
 
 function getColType($colName, $mysqlQuery)
 {

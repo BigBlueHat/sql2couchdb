@@ -21,6 +21,17 @@ Compatability
 
 PHP 5 (requires MySQL libraries)
 
+Installation
+------------
+
+We use [Composer](http://getcomposer.org/) to include the latest Sag version.
+From within the directory you installed Sag, run the following:
+
+    $ composer install
+
+That command will create a `vendor/` folder that contains the necessary
+`autoload.php` file that manages loading Sag.
+
 Running It
 ----------
 
